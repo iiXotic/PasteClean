@@ -4,7 +4,7 @@ Hi everyone!
 
 This is **PasteClean**, a simple tool I made to help keep your shared links clean and private. It automatically removes those annoying tracking parameters (like `?utm_source=...`) from URLs when you copy them.
 
-![PasteClean Banner](lightning.png)
+<img src="lightning.png" alt="PasteClean Banner" width="200"/>
 
 ## What it does
 

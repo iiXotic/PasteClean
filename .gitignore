@@ -3,3 +3,4 @@
 !website/assets/gumroad_thumbnail.png
 !.gitignore
 !website/
+!website/**

@@ -1,0 +1,6 @@
+{
+  "name": "PasteClean",
+  "description": "Remove tracking parameters from shared links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

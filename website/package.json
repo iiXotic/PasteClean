@@ -1,0 +1,29 @@
+{
+  "name": "pasteclean-site",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Landing page for the PasteClean Windows desktop app.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3001 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "node -e \"fs.rmSync('dist',{recursive:true,force:true})\"",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^0.546.0",
+    "react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "motion": "^12.23.24"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

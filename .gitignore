@@ -1,6 +1,11 @@
-*
-!README.md
-!website/assets/gumroad_thumbnail.png
-!.gitignore
-!website/
-!website/**
+node_modules/
+build/
+dist/
+coverage/
+output/
+.DS_Store
+*.log
+.env*
+src-tauri/target/
+vs_buildtools.exe
+gemini-site-review/
